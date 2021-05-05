@@ -1,0 +1,28 @@
+{
+  "name": "pixel-coding",
+  "version": "1.0.0",
+  "description": "Pixel & coding ofrecemos un servicio integral: Desarrollo de sitio web, redacción y Contenidos SEO",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabinha81/Proyecto.git"
+  },
+  "author": "Gabriela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabinha81/Proyecto/issues"
+  },
+  "homepage": "https://github.com/Gabinha81/Proyecto#readme"
+}
