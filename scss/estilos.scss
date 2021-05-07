@@ -68,6 +68,11 @@ i:hover{
     color: lightpink;
     }
 
+.icon {
+    color: white;
+    text-decoration: none;
+}
+
 /*MENU bootstrap */
 
 .navbar-light .navbar-nav .nav-link {
@@ -297,6 +302,11 @@ mark{
 
 
  //Sass//
+
+$fontParrafo:18px;
+$fontTitulo: 26px;
+$familiaTitulo: 'Rubik', sans-serif;
+$Tituloweight: bold;
 
  .textoEncabezado{
 
@@ -636,7 +646,7 @@ mark{
         grid-template-columns: 100%;
         grid-template-rows: 0.3fr 0.3fr 0.3fr;
         gap: 0;
-        height: 1400px;
+        height: 1200px;
     
       }
     
@@ -672,6 +682,36 @@ mark{
 
     
 }
+
+
+@media only screen and (max-width: 320px){
+
+
+    .home {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+        gap: 3px 3px;
+        grid-template-areas:
+                    "col1"
+                    "col2";
+        height: 600px;
+    
+      }
+
+     .titulosSeccion{
+         margin-top: 10%;
+         padding-top: 10%;
+         
+     } 
+
+     .gridIndex {
+        height: 1200px;
+    }
+
+
+}
+
 
 //BEM MEDIA
 
@@ -803,8 +843,7 @@ mark{
         }
     
     }
-    
-    
+     
     
     @media only screen and (max-width: 480px){
     
@@ -863,6 +902,58 @@ mark{
             }
         
         }
+
+
+    @media only screen and (max-width: 320px){
+
+        .caja {
+            height: 400px;
+
+        }  
+
+        .cajaImagen{
+            display:grid;
+            grid-template-columns:100%;
+            grid-template-rows: 40% 60%;
+            padding: 5px;
+            height: 700px;
+            border-radius: 5px;
+            margin-top: 20px;
+            align-items: center;
+            justify-items: center;
+            
+          
+        
+            &__imagen{
+                grid-column-start:1 ;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end:2;
+                max-width: 100%;
+                padding-top: 10px;
+                height: 200px;
+        
+            }
+        
+            &__texto{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end:3;
+                font-size: $fontParrafo;
+                padding: 5px 20px 0 20px;
+                font-size: 18px;
+        
+            }
+            
+        }
+
+        .footerFlex {
+            height: 300px;
+    
+        }
+        
+    }    
     
 //SASS MEDIA
 
@@ -993,7 +1084,7 @@ mark{
     display: grid;
     grid-template-columns:100%;
     grid-template-rows: 40% 60%;
-    height: 450px;
+    height: 350px;
     align-items: center;
 
     .indexUno{
@@ -1037,6 +1128,22 @@ mark{
 }
 
 }
+
+@media only screen and (max-width: 320px){
+
+    .presentacion{
+
+        height: 350px;
+        
+
+
+    }
+
+
+
+}
+
+
 
 
 

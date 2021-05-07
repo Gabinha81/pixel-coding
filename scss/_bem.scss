@@ -129,10 +129,10 @@ $Tituloweight: bold;
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     background: linear-gradient(to top, #0b667b, #16bfe8);
     color: #f7f7f7;
-    padding: 20px 0 30px 30px;
+    padding: 2% 5% 2% 5%;
 
     &__redes{
     font-weight: 500;
@@ -144,6 +144,7 @@ $Tituloweight: bold;
 
     &__titulo{
         font-size: 20px;
+         
 
     }
 
@@ -166,6 +167,27 @@ $Tituloweight: bold;
         font-size: $fontParrafo;
         color: white;
        // width: 40%;
+
+    }
+
+}
+
+.footer__dos {
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    color: #faa8ce;
+    padding: 5px 0 5px 10px;
+
+    &__desarrollo {
+        color: white;
+        font-size: 14px;
+        background-color: blue($color: #000000);
+
+
 
     }
 

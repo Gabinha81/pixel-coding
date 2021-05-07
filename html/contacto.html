@@ -57,59 +57,59 @@
       </div>
     </nav>
   </header>
+  <main></main>
+    <section class="imagenCabezal">
+      <p class="titulosCabezal">Contacto</p>
 
-  <section class="imagenCabezal">
-    <p class="titulosCabezal">Contacto</p>
-
-  </section>
-
-
-  <div class="container">
-
-    <form action="" class="fondo">
-      <div class="form-group">
-
-        <label for="Nombre">Nombre:</label>
-        <input type="text" name="Nombre" class="form-control" id="Nombre">
+    </section>
 
 
-        <label for="Apellido">Apellido:</label>
-        <input id="campos" type="text" class="form-control" name="Apellido" id="Apellido">
+    <div class="container">
+
+      <form action="" class="fondo">
+        <div class="form-group">
+
+          <label for="Nombre">Nombre:</label>
+          <input type="text" name="Nombre" class="form-control" id="Nombre">
 
 
-        <label for="Email">Email:</label>
-        <input type="email" name="Email" class="form-control">
-
-        <label for="conociste">¿Cómo nos conociste?</label></br>
-        <label for="rrss">Redes sociales </label>
-        <input id="campos" type="checkbox" class="form-check-input" name="rrss" id="rrss" value="rrss">
-        <label for="sitioweb">Sitio web </label>
-        <input type="checkbox" class="form-check-input" name="sitioweb" id="sitioweb" value="sitioweb">
-        <label for="Familiaresamigos">Familiares/Amigos</label>
-        <input type="checkbox" name="familiaresamigos" class="form-check-input" id="familiaresamigos"
-          value="FamiliaresAmigos">
+          <label for="Apellido">Apellido:</label>
+          <input id="campos" type="text" class="form-control" name="Apellido" id="Apellido">
 
 
-        <label for="servicio">Elegí el servicio por el que queres consultar:</label>
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" class="form-control">
 
-        <select name="Servicios" class="form-select" id="">
-          <option value="">Redacción de publicaciones digitales</option>
-          <option value="">Redacción web y Contenidos SEO</option>
-          <option value="">Estrategia de contenidos</option>
-          <option value="">Otro</option>
-        </select>
-        <label for="Consultas">Consultas: </label>
+          <label for="conociste">¿Cómo nos conociste?</label></br>
+          <label for="rrss">Redes sociales </label>
+          <input id="campos" type="checkbox" class="form-check-input" name="rrss" id="rrss" value="rrss">
+          <label for="sitioweb">Sitio web </label>
+          <input type="checkbox" class="form-check-input" name="sitioweb" id="sitioweb" value="sitioweb">
+          <label for="Familiaresamigos">Familiares/Amigos</label>
+          <input type="checkbox" name="familiaresamigos" class="form-check-input" id="familiaresamigos"
+            value="FamiliaresAmigos">
 
-        <textarea name="Consultas" class="form-control" id="campos" cols="35" rows="5"
-          placeholder="Dejanos tus consultas"></textarea>
 
-        <input type="reset" class="btn btn-light">
-        <button type="submit" class="btn btn-info">ENVIAR </button>
+          <label for="servicio">Elegí el servicio por el que queres consultar:</label>
 
-      </div>
-    </form>
-  </div>
+          <select name="Servicios" class="form-select" id="">
+            <option value="">Redacción de publicaciones digitales</option>
+            <option value="">Redacción web y Contenidos SEO</option>
+            <option value="">Estrategia de contenidos</option>
+            <option value="">Otro</option>
+          </select>
+          <label for="Consultas">Consultas: </label>
 
+          <textarea name="Consultas" class="form-control" id="campos" cols="35" rows="5"
+            placeholder="Dejanos tus consultas"></textarea>
+
+          <input type="reset" class="btn btn-light">
+          <button type="submit" class="btn btn-info">ENVIAR </button>
+
+        </div>
+      </form>
+    </div>
+  </main> 
   <footer>
 
     <div class="footerFlex">
@@ -117,9 +117,10 @@
       <div class="footerFlex__redes">
         <p class="footerFlex__titulo">Nuestras redes sociales</p>
         <div class="footerFlex__iconos">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram-square"></i>
-          <i class="fas fa-envelope"></i>
+            <a href="https://www.facebook.com/" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"class="icon"><i class="fab fa-instagram-square"></i></a>
+            <a href="html/contacto.html" class="icon"><i class="fas fa-envelope"></i></a>
+            
         </div>
       </div>
       <div class="footerFlex__contactoFooter">
@@ -132,7 +133,7 @@
   </footer>
 
 
-
+  <!-- BOOTSTRAP-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
   </script>
